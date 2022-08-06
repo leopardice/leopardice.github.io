@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="description"
+            content="Igor Panov - experienced frontend developer"
+    />
+    <title>Igor Panov</title>
+
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/general.css" >
+    <link rel="stylesheet" href="css/queries.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+    />
+
+    <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+            nomodule=""
+            src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+            defer
+            src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+</head>
+<body>
+<header class="header">
+    <nav class="main-nav">
+        <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#about">About Me</a></li>
+            <li><a class="main-nav-link" href="#projects">My Projects</a></li>
+            <li class="li-cv">
+                <a
+                        class="main-nav-link"
+                        href="https://www.linkedin.com/in/igor-panov-a05694246/"
+                        target="_blank"
+                >
+                    <img
+                    src="img/logos/linked-in-icon.png"
+                    alt="LinkedIn logo"
+                    /></a></li>
+            <li><a class="main-nav-link"
+                   href="https://telegram.me/igor_panov_24"
+                   target="_blank"
+            ><img
+                    src="img/logos/telegram-icon.png"
+                    alt="Telegram logo"
+            /></a></li>
+            <li><a class="main-nav-link"
+                   href="https://github.com/leopardice"
+                   target="_blank"
+            ><img
+                    src="img/logos/github.png"
+                    alt="Github logo"
+            /></a></li>
+            <li><a class="main-nav-link nav-cv"
+                   href="https://drive.google.com/file/d/1b93yc6uHzW3MPWeUQEYxQnU0l_gEAHRQ/view?usp=sharing"
+                   target="_blank"
+            >Open CV</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="section-hero" id="about">
+        <div class="container grid grid--2-cols">
+            <div class="hero-text-box">
+                <h1 class="heading-primary">Igor Panov,<br>Frontend Developer</h1>
+                <p class="hero-description">I'm passionate about building interactive, beautiful and easy-to-use Web applications. I like to learn new technologies and immediately put this knowledge into practice. My favorite tech stack at the moment includes: <span>JavaScript, React, Redux, Typescript and Material UI.</span>
+                </p>
+                <a href="https://drive.google.com/file/d/1b93yc6uHzW3MPWeUQEYxQnU0l_gEAHRQ/view?usp=sharing"
+                   target="_blank"
+                   class="btn btn--full">Download CV</a>
+            </div>
+            <div class="hero-img-box">
+                    <img
+                            src="img/hero-img.jpg"
+                            class="hero-img"
+                            alt="man's photo"
+                    />
+            </div>
+        </div>
+    </section>
+    <section class="section-projects" id="projects">
+        <div class="container center-text">
+            <h2 class="heading-secondary">
+                My Projects
+            </h2>
+        </div>
+        <div class="container grid grid--3-cols">
+            <div class="project">
+                <div class="project-img-box">
+                <a href="https://leopardice.github.io/moviesFilter/"
+                   target="_blank">
+                <img
+                        src="img/projects/movies.png"
+                        class="project-img"
+                        alt="movies-app-snapshot"
+                />
+                </a>
+                </div>
+                <div class="project-description">
+                <p class="project-title">Movies SPA</p>
+                <ul class="project-techs">
+                    <li class="project-tech">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>ReactJS</span>
+                    </li>
+                    <li class="project-tech">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Typescript</span></li>
+                    <li class="project-tech">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>RTK</span></li>
+                    </li>
+                    <li class="project-tech">
+                        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                        <span>Material UI</span></li>
+                    </li>
+                </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://leopardice.github.io/moviesFilter/"
+                       target="_blank"
+                       class="btn btn--full btn--project">Open</a>
+                    <a href="https://github.com/leopardice/moviesFilter"
+                       target="_blank"
+                       class="btn--project btn--outline">
+                        <img
+                                src="img/logos/github.png"
+                                class="git-logo"
+                                alt="github-logo"
+                        >
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img-box">
+                <a href="https://leopardice.github.io/weather_app/" target="_blank"><img
+                        src="img/projects/weather.png"
+                        class="project-img"
+                        alt="weather-app-snapshot"
+                />
+                </a>
+                </div>
+                <div class="project-description">
+                    <p class="project-title">Weather SPA</p>
+                    <ul class="project-techs">
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>ReactJS</span>
+                        </li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>Redux</span></li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>REST API</span></li>
+                        </li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>React-Router</span></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://leopardice.github.io/weather_app/" target="_blank" class="btn btn--full btn--project">Open</a>
+                    <a href="https://github.com/leopardice/weather_app" target="_blank" class="btn--project btn--outline">
+                        <img
+                                src="img/logos/github.png"
+                                class="git-logo"
+                                alt="github-logo"
+                        >
+                    </a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img-box">
+                    <img
+                            src="img/projects/omnifood.png"
+                            class="project-img"
+                            alt="omnifood-app-snapshot"
+                    />
+                </div>
+                <div class="project-description">
+                    <p class="project-title">Omnifood</p>
+                    <ul class="project-techs">
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>JavaScript</span>
+                        </li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>HTML/CSS</span></li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>Responsive</span></li>
+                        </li>
+                        <li class="project-tech">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span>Adaptive</span></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="project-links">
+                    <a href="https://leopardice.github.io/omnifood/"
+                       target="_blank"
+                       class="btn btn--full btn--project">Open</a>
+                    <a href="https://github.com/leopardice/omnifood"
+                       target="_blank"
+                       class="btn--project btn--outline">
+                        <img
+                                src="img/logos/github.png"
+                                class="git-logo"
+                                alt="github-logo"
+                        >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
