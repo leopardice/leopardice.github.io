@@ -142,11 +142,8 @@
     .main-nav-link:visited {
         font-size: 3rem;
     }
-
-    .icons-list-item {
-        display: flex;
-    }
 }
+
 
 @media (max-width: 38em) {
     .grid {
@@ -161,4 +158,35 @@
         width: 80%;
     }
 
+}
+
+.no-flexbox-gap .main-nav-list li {
+    margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .nav-btns li:not(:last-child) {
+    margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .main-nav-list li {
+    flex-direction: column;
+    margin-bottom: 4.8rem;
+}
+
+.no-flexbox-gap .project-techs li:not(:last-child) {
+    margin-bottom: 2.4rem;
+}
+
+.no-flexbox-gap .btn-mobile-nav {
+    margin-left: auto;
+}
+
+@media (max-width: 59em) {
+    .no-flexbox-gap .main-nav-list li {
+        margin-right: 0;
+    }
+
+    .no-flexbox-gap .nav-btns li:not(:last-child) {
+        margin-right: 0;
+    }
 }

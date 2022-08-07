@@ -28,7 +28,6 @@ pageLinks.forEach(function (link) {
     });
 });
 
-
 const sectionHeroEl = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
